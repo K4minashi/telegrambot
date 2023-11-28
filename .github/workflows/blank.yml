@@ -24,6 +24,6 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: send photo message
-          photo: './tests/github.png'
+          photo: './photo/telegram_PNG28.png'
           document: './tests/gophercolor.png'
 
